@@ -64,10 +64,6 @@ p {
   }
 }
 
-.text-sm {
-  font: var(--text-sm);
-}
-
 .subtitle {
   font: var(--subtitle);
 
