@@ -23,7 +23,6 @@
   --gray-600: #E2E4E9;
 
   /* fontes */
-
   --font-family-title: 'Asap', sans-serif;
   --font-family-subtitle: 'Inconsolata', sans-serif;
   --font-family-text: 'Maven Pro', sans-serif;
@@ -45,7 +44,6 @@ body {
 
 .container {
   max-width: 1366px;
-  margin: 0 auto; /* centraliza o container */
 }
 
 h1 {
