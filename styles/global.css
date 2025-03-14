@@ -43,6 +43,9 @@ body {
   color: var(--gray-600);
 }
 
+.container {
+  max-width: 1366px;
+}
 
 h1 {
   font: var(--h1);
