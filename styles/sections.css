@@ -1,0 +1,37 @@
+#intro {
+  width: 100%;
+}
+
+.avatar {
+  position: relative;
+  width: fit-content;
+}
+
+#border {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 100px; 
+  height: 100px;
+}
+
+#pfp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 87px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#code {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  width: 32px;
+}
+
+

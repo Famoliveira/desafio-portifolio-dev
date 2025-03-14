@@ -45,6 +45,7 @@ body {
 
 .container {
   max-width: 1366px;
+  margin: 0 auto; /* centraliza o container */
 }
 
 h1 {
@@ -61,6 +62,7 @@ h3 {
 
 p {
   font: var(--text);
+  color: var(--gray-400);
 
   &.text-sm {
     font: var(--text-sm);
@@ -69,13 +71,14 @@ p {
 
 .subtitle {
   font: var(--subtitle);
+  color: var(--gray-500);
 
   &.red, strong{
     color: var(--main-red);
   }
 
   &.purple {
-    color: var(--main-purple);
+    color: var (--main-purple);
   }
 }
 
