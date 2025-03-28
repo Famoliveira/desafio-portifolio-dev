@@ -19,6 +19,7 @@
 
 .user {
   position: relative;
+  scale: 1.4;
   width: 6rem;
   height: 6rem;
 }
@@ -48,10 +49,13 @@ header {
   margin-bottom: 5.875rem;
 }
 
-.seta { display: flex; justify-content: center;}
+.seta { 
+  display: flex; 
+  justify-content: center;
+}
 
 .projects {
-  padding: 72px 120px 144px 120px;
+  padding: 4.5rem 7.5rem 9rem 7.5rem; /* 72px 120px 144px 120px */
   width: 100%;
 }
 
@@ -59,31 +63,28 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  gap: 24px;
-  padding-inline: 44px;
+  gap: 1.5rem; /* 24px */
+  padding-inline: 2.75rem; /* 44px */
 }
 
 .challenge-wrapper {
-  padding: 12px;
+  padding: 0.75rem; /* 12px */
   background-color: var(--gray-300);
   text-align: left;
-  border-radius: 12px;
+  border-radius: 0.75rem; /* 12px */
 
   & h3 {
-    padding-block: 20px 8px;
-    padding-inline: 4px;
+    padding-block: 1.25rem 0.5rem; /* 20px 8px */
+    padding-inline: 0.25rem; /* 4px */
   }
 
   & p {
-    padding-inline: 4px;
-    padding-bottom: 4px;
+    padding-inline: 0.25rem; /* 4px */
+    padding-bottom: 0.25rem; /* 4px */
   }
 }
 
-
-
 .my-work {
   text-align: center;
-  margin-bottom: 56px;
+  margin-bottom: 3.5rem; /* 56px */
 }
-
