@@ -34,16 +34,11 @@
   --text: 16px/140% var(--font-family-text);
   --text-sm: 14px/140% var(--font-family-text);
   
-
 }
 
 body {
   background-color: var(--bg-color);
   color: var(--gray-600);
-}
-
-.container {
-  max-width: 1366px;
 }
 
 h1 {
@@ -71,11 +66,44 @@ p {
   font: var(--subtitle);
   color: var(--gray-500);
 
-  &.red, strong{
-    color: var(--main-red);
+  &.blue, strong{
+    color: var(--main-blue);
   }
 
   &.purple {
     color: var (--main-purple);
   }
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+
+  &.pfp {
+    width: 85px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
+
+  &.pfp-border {
+    width: 96px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  &.code {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    height: 24px;
+    z-index: 2;
+  }
+}
+
+.pfp-border, .pfp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centraliza exatamente no centro */
 }
