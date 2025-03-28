@@ -74,7 +74,11 @@ header {
   text-align: left;
   border-radius: 0.75rem; /* 12px */
   box-shadow: 4px 4px 10px var(--shadow-100), -4px 4px 10px var(--shadow-100);
+  border: 2px solid #00000000;
 
+  &:hover {
+    border: 2px solid var(--gray-400);
+  }
 
   & h3 {
     padding-block: 1.25rem 0.5rem; /* 20px 8px */
