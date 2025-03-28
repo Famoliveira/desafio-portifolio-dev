@@ -62,6 +62,11 @@ p {
   }
 }
 
+span {
+  font: var(--text);
+  color: var(--gray-500);
+}
+
 .subtitle {
   font: var(--subtitle);
   color: var(--gray-500);
@@ -73,6 +78,11 @@ p {
   &.purple {
     color: var (--main-purple);
   }
+}
+
+.subtitle + h1 {
+  margin-top: 8px;
+  margin-bottom: 20px;
 }
 
 img {
