@@ -1,63 +1,53 @@
-
-.info{
+.info {
   display: flex;
   width: 100%;
   flex-direction: column;
   align-items: center;
-  padding: 120px 163px 57px 163px;
-  
+  padding: 7.5rem 10.1875rem 3.5625rem 10.1875rem;
   background-image: url(../assets/images/Background_Intro.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid red;
+  border: 0.0625rem solid red;
 }
-
 
 .avatar {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: flex-end;
-  margin-bottom: 56px;
-
-  border: 1px solid red;
+  margin-bottom: 3.5rem;
+  border: 0.0625rem solid red;
 }
 
 .user {
   position: relative;
-  width: 96px;
-  height: 96px;
+  width: 6rem;
+  height: 6rem;
 }
 
-header {
-  width: 680px;
-}
+header { width: 42.5rem; }
 
 .about {
   text-align: center;
-  border: 1px solid red;
+  border: 0.0625rem solid red;
 }
 
 .tags {
   display: flex;
   justify-content: space-around;
-  margin-top: 80px;
-
-  border: 1px solid white;
+  margin-top: 5rem;
+  border: 0.0625rem solid white;
 }
 
 .tag-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px;
-  border-radius: 999px;
-  gap: 8px;
+  padding: 0.5rem;
+  border-radius: 62.4375rem;
+  gap: 0.5rem;
   background-color: var(--gray-300);
-  margin-bottom: 94px;
+  margin-bottom: 5.875rem;
 }
 
-.seta {
-  display: flex;
-  justify-content: center;
-}
+.seta { display: flex; justify-content: center; }
