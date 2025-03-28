@@ -38,7 +38,6 @@
 body {
   background-color: var(--bg-color);
   color: var(--gray-600);
-  padding-bottom: 200px;
 }
 
 h1 { font: var(--h1); }
@@ -101,3 +100,4 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+

@@ -112,3 +112,59 @@ header {
     margin-bottom: 0.5rem;
   }
 }
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+
+  padding: 128px 120px 200px 120px;
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.contact {
+  align-items: center;
+  text-align: center;
+  & h2 + p {
+    margin-bottom: 3rem;
+  }
+}
+
+.rede-wrapper {
+  background-color: var(--gray-300);
+  padding: 20px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 2px #00000000;
+
+  &:hover {
+    border: 2px solid var(--main-blue);
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    .logo {
+      height: 1.75rem;
+      width: 1.75rem;
+      margin-right: 0.5rem;
+    }
+
+    span {
+      text-align: left;
+      color: var(--gray-500);
+    }
+
+    .arrow {
+      margin-left: auto;
+      width: 1.25rem;
+      height: 1.25rem;
+      scale: 0.7; 
+    }
+  }
+}
