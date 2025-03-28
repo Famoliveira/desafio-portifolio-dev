@@ -78,6 +78,8 @@ header {
 
   &:hover {
     border: 0.125rem solid var(--gray-400);
+    scale: 1.05;
+    transition: all 0.3s ease;
   }
 
   & h3 {
@@ -142,6 +144,8 @@ header {
 
   &:hover {
     border: 0.125rem solid var(--main-blue);
+    scale: 1.05;
+    transition: all 0.3s ease;
   }
 
   a {
