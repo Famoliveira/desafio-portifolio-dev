@@ -8,7 +8,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 0.0625rem solid red;
 }
 
 .avatar {
@@ -16,7 +15,6 @@
   justify-content: center;
   align-items: flex-end;
   margin-bottom: 3.5rem;
-  border: 0.0625rem solid red;
 }
 
 .user {
@@ -25,18 +23,18 @@
   height: 6rem;
 }
 
-header { width: 42.5rem; }
+header {
+  width: 42.5rem;
+}
 
 .about {
   text-align: center;
-  border: 0.0625rem solid red;
 }
 
 .tags {
   display: flex;
   justify-content: space-around;
   margin-top: 5rem;
-  border: 0.0625rem solid white;
 }
 
 .tag-wrapper {
@@ -50,4 +48,42 @@ header { width: 42.5rem; }
   margin-bottom: 5.875rem;
 }
 
-.seta { display: flex; justify-content: center; }
+.seta { display: flex; justify-content: center;}
+
+.projects {
+  padding: 72px 120px 144px 120px;
+  width: 100%;
+}
+
+.challenges {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 24px;
+  padding-inline: 44px;
+}
+
+.challenge-wrapper {
+  padding: 12px;
+  background-color: var(--gray-300);
+  text-align: left;
+  border-radius: 12px;
+
+  & h3 {
+    padding-block: 20px 8px;
+    padding-inline: 4px;
+  }
+
+  & p {
+    padding-inline: 4px;
+    padding-bottom: 4px;
+  }
+}
+
+
+
+.my-work {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
